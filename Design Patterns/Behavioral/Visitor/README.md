@@ -1,0 +1,3 @@
+# [Visitor](https://refactoring.guru/design-patterns/visitor)
+- Visitor is a behavioral design pattern that lets you separate algorithms from the objects on which they operate.
+-The Visitor pattern suggests that you place the new behavior into a separate class called visitor, instead of trying to integrate it into existing classes. The original object that had to perform the behavior is now passed to one of the visitor’s methods as an argument, providing the method access to all necessary data contained within the object.
