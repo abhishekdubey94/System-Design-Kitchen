@@ -3,12 +3,14 @@ package cor;
 public class CashDispenser {
 
 	private int denominator;
+	// reference to the next handler
 	private CashDispenser nextDispenser;
 	
 	public CashDispenser(int denominator) {
 		this.denominator = denominator;
 	}
 	
+	// method to set next handler
 	public void setNextDispenser(CashDispenser cd) {
 		if(nextDispenser==null) {
 			nextDispenser = cd;
@@ -17,6 +19,7 @@ public class CashDispenser {
 		}
 	}
 	
+	// handler method
 	public void dispense(int amount) {
 		if(amount>=denominator) {
 			int num = amount/denominator;
