@@ -23,7 +23,6 @@ public class App {
 		context.setStrategy(mul);
 		System.out.println(context.executeStrategy(a, b));
 		
-
 	}
 
 }
