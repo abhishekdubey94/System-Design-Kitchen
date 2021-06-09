@@ -4,13 +4,13 @@ import command.CancelMainDish;
 import command.Order;
 import command.OrderMainDish;
 import dish.MainDish;
-import waiter.Waiter;
+import waiter.CommandExecutor;
 
 public class CommandClient {
 
 	public static void main(String[] args) {
 		// create the invoker, inthis case it is the waiter
-		Waiter waiter = new Waiter();
+		CommandExecutor waiter = new CommandExecutor();
 		
 		// create the concrete command object
 		MainDish item = new MainDish("Pizza");
