@@ -1,4 +1,4 @@
-package src.shape;
+package shape;
 
 public class Rectangle implements Shape {
 

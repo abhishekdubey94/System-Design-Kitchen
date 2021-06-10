@@ -1,9 +1,9 @@
-package src.shapeFactory;
+package shapeFactory;
 
-import src.shape.Circle;
-import src.shape.Rectangle;
-import src.shape.Shape;
-import src.shape.Square;
+import shape.Circle;
+import shape.Rectangle;
+import shape.Shape;
+import shape.Square;
 
 public class ShapeFactory {
 

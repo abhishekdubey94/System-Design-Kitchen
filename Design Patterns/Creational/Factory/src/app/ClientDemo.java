@@ -1,7 +1,7 @@
-package src.app;
+package app;
 
-import src.shape.Shape;
-import src.shapeFactory.ShapeFactory;
+import shape.Shape;
+import shapeFactory.ShapeFactory;
 
 public class ClientDemo {
 
