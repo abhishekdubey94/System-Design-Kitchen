@@ -1,0 +1,7 @@
+# [Proxy](https://refactoring.guru/design-patterns/proxy)
+- Proxy is a structural design pattern that lets you provide a substitute or placeholder for another object. A proxy controls access to the original object, allowing you to perform something either before or after the request gets through to the original object.
+-  If we need to execute something either before or after the primary logic of the class, the proxy lets you do this without changing that class.
+- The Proxy class has a reference field that points to a service object. After the proxy finishes its processing (e.g., lazy initialization, logging, access control, caching, etc.), it passes the request to the service object.
+- **Lazy initialization (virtual proxy)**. This is when you have a heavyweight service object that wastes system resources by being always up, even though you only need it from time to time. Instead of creating the object when the app launches, you can delay the object’s initialization to a time when it’s really needed.
+- **Access control (protection proxy)**. This is when you want only specific clients to be able to use the service object; for instance, when your objects are crucial parts of an operating system and clients are various launched applications (including malicious ones).
+- Local execution of a remote service (remote proxy). This is when the service object is located on a remote server.
