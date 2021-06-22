@@ -7,3 +7,4 @@
 - Local execution of a **remote service (remote proxy)**. This is when the service object is located on a remote server. In this case, the proxy passes the client request over the network, handling all of the nasty details of working with the network.
 - **Logging requests (logging proxy)**. This is when you want to keep a history of requests to the service object. The proxy can log each request before passing it to the service.
 - **Caching request results (caching proxy)**. This is when you need to cache results of client requests and manage the life cycle of this cache, especially if results are quite large.
+- 
